@@ -1,8 +1,8 @@
 import re
 import streamlit as st
 import google.generativeai as genai
-from tools import get_weather, get_joke, get_quote, search_wikipedia, get_public_holidays
-from build_prompt import build_mcp_prompt
+from src.tools import get_weather, get_joke, get_quote, search_wikipedia, get_public_holidays
+from src.build_prompt import build_mcp_prompt
 
 # ✅ Page Config
 st.set_page_config(page_title="Sujan's MCP AI", page_icon="🤖", layout="centered")

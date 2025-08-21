@@ -1,7 +1,7 @@
 import re
 import google.generativeai as genai
-from tools import *
-from build_prompt import build_mcp_prompt
+from src.tools import *
+from src.build_prompt import build_mcp_prompt
 
 genai.configure(api_key="your gemini key here")
 model = genai.GenerativeModel("gemini-1.5-flash")
